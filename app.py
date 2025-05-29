@@ -1,4 +1,4 @@
-# FRONTEND PAGE 'app.py' This code can be found on https://github.com/research-driven-app/br
+# FRONTEND PAGE 'app.py' This code can be found on https://github.com/research-driven-app/emac
 
 # This is the page that is loaded when Streamlit is initialized, therefore the starting point
 # It is helpful to familiarize with the basic functionalities of streamlit (documentation can be found here https://docs.streamlit.io/)
@@ -38,7 +38,7 @@ headRight.markdown(" ")
 
 
 # This is the title of our app, "Brand Reputation App", it is set on the left on top "headLeft.title("name of the app goes here")"
-headLeft.title("Brand Reputation App")
+headLeft.title("GenAI - Brand Reputation App - EMAC Poster Version")
 
 # Link to the next page, this will execute the script
 st.page_link("pages/edit.py", label="Compute and Visualize Brand Reputation", icon="▶️")
